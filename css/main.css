@@ -24,6 +24,9 @@ h2 {
   min-height: 100%;
 }
 
+/*=======slider=======*/
+
+
 #full-width-slider {
   width: 100%;
   color: #000;
@@ -109,6 +112,7 @@ h2 {
 .photosBy a {
   color: #000;
 }
+
 .fullWidth {
   max-width: 1400px;
   margin: 0 auto 24px;
@@ -151,11 +155,16 @@ h2 {
 }
 
 .logo {
+  left: 160px;
+}
+
+.logo img {
   margin-top: 20px;
 }
 
+/*=======mine=======*/
+
 .roll img {
-  opacity: .5;
   -webkit-transition: all .6s ease-in-out;
   -moz-transition: all .6s ease-in-out;
   -o-transition: all .6s ease-in-out;
@@ -163,12 +172,12 @@ h2 {
   border: 1px solid rgba(107, 107, 107, .75);
 }
 
-.roll img:hover {
-  opacity: 1;
+.pickFont {
+    text-align: center;
 }
 
 .title {
-  padding-top: 30px;
+  padding-top: 20px;
   position: relative;
   top: 20px;
 }
@@ -183,10 +192,32 @@ h2 {
   top: 40px;
 }
 
+.modernBorder {
+    border-bottom: 1px solid #292929;
+    width: 100%;
+}
+
+.modernBorder img {
+    margin-top: 20px;
+}
+
+.pickFont img {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.get {
+    position: relative;
+    left: 500px;
+    top: 20px;
+}
+
 form.large-6.large-centered.columns.inputText p {
   text-align: center !important;
   margin-top: 200px;
 }
+
+/*=======footer=======*/
 
 footer, #wrapper:after {
   /* .push must be the same height as footer */
@@ -203,12 +234,13 @@ form.large-6.large-centered.columns.inputText {
 }
 
 footer {
-  overflow: hidden;
+    margin-top: 30px;
+    overflow: hidden;
 	position: relative;
 	width: 100%;
   /*height: 75px;*/
 	text-align: center;
-	border-top: solid 1px; color: white; 
+	border-top: solid 1px; color: black; 
 	background-color: rgb(0, 0, 0);
 	background-color: rgba(0, 0, 0, 0.6);
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
